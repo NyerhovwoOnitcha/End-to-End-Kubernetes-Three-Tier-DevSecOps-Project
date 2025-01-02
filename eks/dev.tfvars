@@ -1,4 +1,5 @@
 env                   = "dev"
+key_name              = homelab_universal
 aws-region            = "eu-north-1"
 vpc-cidr-block        = "10.16.0.0/16"
 vpc-name              = "vpc"

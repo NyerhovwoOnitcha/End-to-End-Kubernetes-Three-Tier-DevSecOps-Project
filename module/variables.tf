@@ -1,4 +1,5 @@
 variable "cluster-name" {}
+variable "key_name " {}
 variable "cidr-block" {}
 variable "vpc-name" {}
 variable "env" {}
