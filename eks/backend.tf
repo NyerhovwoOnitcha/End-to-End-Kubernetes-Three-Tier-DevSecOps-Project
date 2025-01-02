@@ -16,7 +16,7 @@ resource "aws_s3_bucket_versioning" "eks_s3_versioning" {
 }
 
 
-# create dynamo table
+## create dynamo table
 resource "aws_dynamodb_table" "eks_s3_dynamodb-table" {
   name         = "EksTable"
   billing_mode = "PAY_PER_REQUEST"
